@@ -1,0 +1,7 @@
+{
+  "name": "dofu-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

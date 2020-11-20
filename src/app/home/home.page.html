@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      支付测试
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="login()">
+        {{name || "登陆"}}
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-row style="height: 100%;">
+    <ion-col style="display: flex;flex-direction: column;">
+      <ion-card>
+        <ion-img src="./../assets/logo.jpg"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>￥ 0.1</ion-card-subtitle>
+          <ion-card-title>测试商品</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          ionic capacitor 支付插件，支持微信、支付宝
+        </ion-card-content>
+      </ion-card>
+      <ion-button color="success" (click)="wxpay()">微信支付</ion-button>
+      <ion-button color="secondary" (click)="alipay()">支付宝支付</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>

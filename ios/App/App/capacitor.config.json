@@ -1,0 +1,15 @@
+{
+  "appId": "com.xxxx.xxx",
+  "wxappId": "wxdxxxxxxxxxxxxxxx",
+  "universalLink": "https://xxx.xxx.com",
+  "appName": "xxxx",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
